@@ -1,7 +1,5 @@
-let arr = [1, 2, 3, 4, 5];
+let btn = document.getElementsByName('button');
 
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+btn[0].onclick = function() {
+    alet('вы нажали первую кнопку');
 }
-
-console.log(arr);
